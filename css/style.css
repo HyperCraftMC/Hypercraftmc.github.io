@@ -78,4 +78,20 @@ header,
   .navbar:not(.top-nav-collapse) {
     background-color: rgb(235, 85, 15);
   }
+
+  quote-body {
+    background-color: #000;
+    color: #ffffff;
+    font-weight: normal;
+    font-size:20px;
+}
+
+
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
+
 }
