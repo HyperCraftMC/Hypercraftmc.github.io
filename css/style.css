@@ -31,7 +31,20 @@ header,
   animation-iteration-count: infinite;
   background-size: 100% 100%;
 }
-
+#image4{
+  animation-name: img4;
+  animation-duration: 12s;
+  animation-delay: 10s;
+  animation-iteration-count: infinite;
+  background-size: 100% 100%;
+}
+#image5{
+  animation-name: img5;
+  animation-duration: 12s;
+  animation-delay: 10s;
+  animation-iteration-count: infinite;
+  background-size: 100% 100%;
+}
 
 @keyframes img2{
   0%{
@@ -50,6 +63,48 @@ header,
   }
 }
 @keyframes img3 {
+  0%{
+    left: 100%;
+    z-index: 1;
+    visibility: hidden;
+  }
+  1%{
+    z-index: 3;
+    visibility: visible;
+  }
+  16.67%{
+    left: 0;
+  }
+  83.33%{
+    visibility: hidden
+  }
+  100%{
+    left: 0;
+    visibility: hidden;
+  }
+}
+@keyframes img4{
+  0%{
+    left: 100%;
+    z-index: 1;
+    visibility: hidden;
+  }
+  1%{
+    z-index: 3;
+    visibility: visible;
+  }
+  16.67%{
+    left: 0;
+  }
+  83.33%{
+    visibility: hidden
+  }
+  100%{
+    left: 0;
+    visibility: hidden;
+  }
+}
+@keyframes img5{
   0%{
     left: 100%;
     z-index: 1;
