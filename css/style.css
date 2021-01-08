@@ -18,7 +18,7 @@ header,
 #image2{
   background: url('background.png')no-repeat center center fixed;
   animation-name: img2;
-  animation-duration: 12s;
+  animation-duration: 24s;
   animation-delay: 5s;
   animation-iteration-count: infinite;
   background-size: 100% 100%;
@@ -26,23 +26,43 @@ header,
 #image3{
   background: url('image1.png')no-repeat center center fixed;
   animation-name: img3;
-  animation-duration: 12s;
+  animation-duration: 24s;
+  animation-delay: 20s;
+  animation-iteration-count: infinite;
+  background-size: 100% 100%;
+}
+#image4{
+  background: url('image4.png') no-repeat center center fixed;
+  animation-name: img4;
+  animation-duration: 24s;
   animation-delay: 10s;
   animation-iteration-count: infinite;
   background-size: 100% 100%;
 }
-
+#image5{
+  background: url('image5.png')no-repeat center center fixed;
+  animation-name: img5;
+  animation-duration: 24s;
+  animation-delay: 15s;
+  animation-iteration-count: infinite;
+  background-size: 100% 100%;
+}
 
 @keyframes img2{
   0%{
     left: 100%;
-    z-index: 2;
+    z-index: 1;
   }
   1%{
     z-index: 3;
   }
-  16.67%{
+  17.86%{
     left: 0;
+    z-index: 2;
+  }
+  83.33%{
+    visibility: hidden
+    z-index: 1;
   }
   100%{
     left: 0;
@@ -59,11 +79,61 @@ header,
     z-index: 3;
     visibility: visible;
   }
-  16.67%{
+  17.86%{
     left: 0;
+    z-index: 2;
   }
   83.33%{
     visibility: hidden
+    z-index: 1;
+  }
+  100%{
+    left: 0;
+    visibility: hidden;
+    z-index: 1;
+  }
+}
+@keyframes img4{
+  0%{
+    left: 100%;
+    z-index: 1;
+    visibility: hidden;
+  }
+  1%{
+    z-index: 3;
+    visibility: visible;
+  }
+  17.86%{
+    left: 0;
+    z-index: 2;
+    visibility: visible;
+  }
+  83.33%{
+    visibility: hidden
+    z-index: 1;
+  }
+  100%{
+    left: 0;
+    visibility: hidden;
+  }
+}
+@keyframes img5{
+  0%{
+    left: 100%;
+    z-index: 1;
+    visibility: hidden;
+  }
+  1%{
+    z-index: 3;
+    visibility: visible;
+  }
+  17.86%{
+    left: 0;
+    z-index: 2;
+  }
+  83.33%{
+    visibility: hidden
+    z-index: 1;
   }
   100%{
     left: 0;
