@@ -54,19 +54,19 @@
     channel: '701803485221355574'
   })
 </script>
-<!--Redirect-->
-<script language="javascript">
-
-  if(!window.location.search.substring(1) == "full=true") { // do not redirect if querystring is ?full=true
-    if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/Blackberry/i) || navigator.userAgent.match(/WebOs/i)) { // detect mobile browser
-      window.location.replace("http://hypercraftmc.xyz/mobile.html"); // redirect if mobile browser detected
-    }
-  }
-
-</script>
 </head>
 
 <body>
+  <!--Redirect-->
+  <script language="javascript">
+
+    if(!window.location.search.substring(1) == "full=true") { // do not redirect if querystring is ?full=true
+      if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/Blackberry/i) || navigator.userAgent.match(/WebOs/i)) { // detect mobile browser
+        window.location.replace("http://hypercraftmc.xyz/mobile.html"); // redirect if mobile browser detected
+      }
+    }
+
+  </script>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar" style="position: fixed; ">
 
