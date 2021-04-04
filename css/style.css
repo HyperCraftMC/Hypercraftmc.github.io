@@ -2,10 +2,13 @@ html,
 body,
 header,
 #intro {
-    height: 100%;
-    position:relative;
+  height: 100%;
+  position:relative;
 }
-
+#black{
+  background-color: black;
+  left: 0%;
+}
 .slideImage{
   height: 100%;
   width: 100%;
